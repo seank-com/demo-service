@@ -1,0 +1,19 @@
+{
+  "name": "demo-service",
+  "version": "1.0.0",
+  "description": "A cadre of services for demonstration purposes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seank-com/demo-service.git"
+  },
+  "author": "SeanK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seank-com/demo-service/issues"
+  },
+  "homepage": "https://github.com/seank-com/demo-service#readme"
+}
