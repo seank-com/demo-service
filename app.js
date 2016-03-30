@@ -42,7 +42,7 @@ router.route("/users/:user_id")
     User.findById(req.params.user_id, createCallback(res, "User not found!"));
   })
   .put(function(req, res) {
-    User.findById(req.params.bear_id, function(err, user) {
+    User.findById(req.params.user_id, function(err, user) {
       if (err) return res.send(err);
       user.name = req.body.name;
       user.save(createCallback(res, "User updated!"));
